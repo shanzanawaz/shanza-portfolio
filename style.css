@@ -89,3 +89,99 @@ body{
 .hire-btn:hover{
     background:#4B2FE3;
 }
+/* ===========================
+   HERO SECTION
+=========================== */
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    padding-top:80px;
+}
+
+.hero-container{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    align-items:center;
+    gap:60px;
+}
+
+.hero-tag{
+    color:#5B3DF5;
+    font-weight:600;
+    margin-bottom:20px;
+}
+
+.hero h1{
+    font-family:'Sora',sans-serif;
+    font-size:56px;
+    line-height:1.1;
+    margin-bottom:15px;
+    color:#111827;
+}
+
+.hero h1 span{
+    color:#5B3DF5;
+}
+
+.hero h2{
+    font-size:28px;
+    color:#6B7280;
+    margin-bottom:20px;
+}
+
+.hero-description{
+    font-size:18px;
+    line-height:1.8;
+    color:#6B7280;
+    max-width:550px;
+    margin-bottom:35px;
+}
+
+.hero-buttons{
+    display:flex;
+    gap:18px;
+}
+
+.primary-btn,
+.secondary-btn{
+    text-decoration:none;
+    padding:15px 28px;
+    border-radius:12px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.primary-btn{
+    background:#5B3DF5;
+    color:#fff;
+}
+
+.primary-btn:hover{
+    transform:translateY(-3px);
+}
+
+.secondary-btn{
+    border:2px solid #5B3DF5;
+    color:#5B3DF5;
+}
+
+.secondary-btn:hover{
+    background:#5B3DF5;
+    color:#fff;
+}
+
+.image-placeholder{
+    width:420px;
+    height:420px;
+    border-radius:24px;
+    background:linear-gradient(135deg,#5B3DF5,#00C2A8);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#fff;
+    font-size:28px;
+    font-weight:700;
+    margin-left:auto;
+}
