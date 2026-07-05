@@ -17,3 +17,75 @@ body{
     background:#F8FAFC;
     color:#111827;
 }
+/* ===========================
+   GLOBAL CONTAINER
+=========================== */
+
+.container{
+    width:min(1120px,90%);
+    margin:auto;
+}
+
+/* ===========================
+   HEADER
+=========================== */
+
+.header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background:rgba(255,255,255,.85);
+    backdrop-filter:blur(14px);
+    border-bottom:1px solid #E5E7EB;
+    z-index:1000;
+}
+
+.header .container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    height:80px;
+}
+
+.logo{
+    text-decoration:none;
+}
+
+.logo span{
+    font-family:'Sora',sans-serif;
+    font-size:28px;
+    font-weight:700;
+    color:#5B3DF5;
+}
+
+.nav-links{
+    display:flex;
+    list-style:none;
+    gap:35px;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:#374151;
+    font-weight:500;
+    transition:.3s;
+}
+
+.nav-links a:hover{
+    color:#5B3DF5;
+}
+
+.hire-btn{
+    text-decoration:none;
+    background:#5B3DF5;
+    color:#fff;
+    padding:12px 24px;
+    border-radius:12px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.hire-btn:hover{
+    background:#4B2FE3;
+}
